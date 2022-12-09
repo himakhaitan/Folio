@@ -9,6 +9,7 @@
   overflow-y: scroll;
   background-color: var(--grey);
   height: 100%;
+  padding-bottom: 10rem;
 }
 
 .dashboard_items::-webkit-scrollbar {
@@ -18,7 +19,7 @@
 .dashboard_main {
   overflow-y: scroll;
   height: 100%;
-  padding: 5rem;
+  padding: 5rem 5rem 10rem 5rem;
 }
 
 .dashboard_main::-webkit-scrollbar {

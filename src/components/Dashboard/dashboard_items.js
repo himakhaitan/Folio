@@ -11,6 +11,10 @@ const data = [
         id: 2,
         title: "Delete Book",
       },
+      {
+        id: 3,
+        title: "Get Book",
+      },
     ],
   },
   {
@@ -24,6 +28,10 @@ const data = [
       {
         id: 2,
         title: "Delete User",
+      },
+      {
+        id: 3,
+        title: "Get the User",
       },
     ],
   },
@@ -39,6 +47,10 @@ const data = [
         id: 2,
         title: "Delete Author",
       },
+      {
+        id: 3,
+        title: "Get Author",
+      },
     ],
   },
   {
@@ -52,6 +64,10 @@ const data = [
       {
         id: 2,
         title: "Delete Genre",
+      },
+      {
+        id: 3,
+        title: "Get books by Genre",
       },
     ],
   },
