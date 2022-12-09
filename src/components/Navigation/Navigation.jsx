@@ -1,7 +1,7 @@
 import styles from "./Navigation.module.css";
 
-// Importing Helpers
-import Button from "../../Helper/Button/Button";
+// Importing UI
+import Button from "../../UI/Button/Button";
 
 const Navigation = () => {
   return (

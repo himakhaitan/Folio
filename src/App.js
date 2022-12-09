@@ -1,12 +1,14 @@
 import "./App.css";
 
 // Import Components
-import Login from "./components/Login/Login";
+import Navigation from "./components/Navigation/Navigation";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 function App() {
   return (
     <>
-      <Login />
+      <Navigation />
+      <Dashboard />
     </>
   );
 }

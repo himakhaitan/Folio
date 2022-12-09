@@ -10,10 +10,74 @@
 .logo_container {
   position: absolute;
   top: 2.4rem;
+  transition: all 0.2s ease-in-out;
   left: 2.4rem;
+}
+
+.logo_container:hover {
+  transform: scale(1.05);
 }
 
 .logo {
   height: 5rem;
   width: 5rem;
+}
+
+.login_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 4rem 3rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  background-color: var(--color-tertiary);
+  min-width: 40rem;
+}
+
+.login_container > h3 {
+  text-align: center;
+}
+
+.login_container > h3::after {
+  content: "";
+  display: block;
+  width: 5rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 0.2rem;
+  background-color: var(--color-secondary);
+  margin: 1rem auto;
+}
+
+.input_container {
+  margin-top: 3rem;
+}
+
+.input_item {
+  margin-bottom: 2rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 1rem;
+}
+
+.input_item > input {
+  padding: 1.2rem 2rem;
+  border-radius: 2rem;
+  border: 2px solid var(--color-secondary);
+  background-color: var(--color-tertiary);
+  color: var(--color-primary);
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.input_item > input::placeholder {
+  color: var(--color-primary);
+}
+
+.login_submit {
+  text-align: center;
 }

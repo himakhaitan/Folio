@@ -5,7 +5,8 @@
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "Paytone One", sans-serif;
   --success: #53a653;
-  --grey: #e0e0e0;
+  --grey: #eeeeee;
+  --grey-dark: #dddddd;
   --error: #d32f2f;
 }
 
@@ -26,6 +27,7 @@ body {
   background-color: var(--color-tertiary);
   color: var(--color-primary);
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 p {
@@ -41,7 +43,7 @@ h4,
 h5,
 h6 {
   font-weight: 800;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   letter-spacing: 0px;
 }
 
@@ -52,6 +54,7 @@ h2 {
 }
 
 h3 {
+  font-size: 2rem;
 }
 
 h4 {
