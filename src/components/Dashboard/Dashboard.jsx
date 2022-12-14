@@ -1,6 +1,5 @@
 import classes from "./Dashboard.module.css";
 import { useState } from "react";
-import { RiArrowDropDownLine } from "react-icons/ri";
 
 import data from "./dashboard_items";
 

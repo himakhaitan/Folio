@@ -8,11 +8,11 @@ const Navigation = () => {
     <div className={styles.navigation}>
       <div className={styles.navigation_container}>
         <div className={styles.nav_logo_container}>
-          <img src='/ui_pack/folio.png' className={styles.navigation_logo} />
+          <img src='/ui_pack/folio.png' alt="Folio Logo" className={styles.navigation_logo} />
         </div>
         <ul className={styles.nav_items}>
           <li className={styles.nav_item + " " + styles.nav_user_container}>
-            <img className={styles.nav_user} src='/images/user.png' />{" "}
+            <img className={styles.nav_user} alt="Folio User" src='/images/user.png' />{" "}
             <span>Welcome, Himanshu!</span>
           </li>
           <li className={styles.nav_item}>
